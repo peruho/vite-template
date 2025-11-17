@@ -1,0 +1,4 @@
+# Coloca aquí tus imágenes
+# Se importan así:
+# import logo from './logo.png'
+# O en CSS: background-image: url('./assets/images/logo.png')

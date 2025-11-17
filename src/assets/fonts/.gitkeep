@@ -1,0 +1,6 @@
+# Coloca aquí tus fuentes personalizadas
+# Se importan en CSS así:
+# @font-face {
+#   font-family: 'MiFuente';
+#   src: url('./assets/fonts/mifuente.woff2') format('woff2');
+# }
