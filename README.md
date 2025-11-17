@@ -239,20 +239,21 @@ new MyComponent('#my-element');
 #### Imágenes en JavaScript
 
 ```javascript
-// Importar imagen (Vite generará la URL optimizada)
+// Importar imagen (Vite generará la URL con hash)
 import logo from './assets/images/logo.png';
 
 // Usar en el DOM
 const img = document.createElement('img');
-img.src = logo; // URL optimizada con hash
+img.src = logo; // URL con hash: /assets/logo.abc123.png
 ```
 
 #### Imágenes en CSS
 
 ```css
-/* Vite procesará y optimizará estas imágenes */
+/* Vite procesará la ruta y agregará hash al nombre */
 .hero {
   background-image: url('../assets/images/hero.jpg');
+  /* Se convierte en: url('/assets/hero.def456.jpg') */
 }
 ```
 
